@@ -84,3 +84,35 @@ footer {
     margin-top: 20px;
     font-size: 14px;
 }
+/* Logo w nagłówku */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 50px; /* Szerokość logo */
+    height: auto;
+    border-radius: 50%; /* Opcjonalnie, aby zrobić logo okrągłe */
+}
+
+/* Logo w stopce */
+.footer-logo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer-logo img {
+    width: 50px; /* Szerokość logo */
+    height: auto;
+}
+
+
+
+
+
+
+
+
