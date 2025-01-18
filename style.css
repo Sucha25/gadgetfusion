@@ -13,6 +13,26 @@ header {
     color: white;
     text-align: center;
     padding: 20px 10px;
+    header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Odstęp między logo a tekstem */
+}
+
+.logo {
+    width: 50px; /* Szerokość logo */
+    height: auto;
+}
+
 }
 
 /* Główna sekcja */
@@ -83,6 +103,17 @@ footer {
     padding: 10px 0;
     margin-top: 20px;
     font-size: 14px;
+    
+    .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Odstęp między logo a tekstem */
+}
+
+.footer-logo img {
+    width: 50px; /* Szerokość logo */
+    height: auto;
+}
 }
 /* Logo w nagłówku */
 .logo-container {
