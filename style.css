@@ -127,7 +127,7 @@ footer {
 .logo {
     width: 50px; /* Szerokość logo */
     height: auto;
-    border-radius: 50%; /* Opcjonalnie, aby zrobić logo okrągłe */
+    border-radius: 50%; 
 }
 
 /* Logo w stopce */
